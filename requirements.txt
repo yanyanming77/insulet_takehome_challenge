@@ -1,20 +1,12 @@
-# Core app
 streamlit>=1.30
 pandas>=2.0
-numpy>=1.24
-joblib>=1.3
-
-# Modeling
+numpy<2.0
 xgboost>=2.0
 scikit-learn>=1.4
-optuna>=3.0   # if you used it for tuning; remove if not
-
-# Image processing
 opencv-python-headless==4.8.1.78
-pillow>=10.0.0
+joblib>=1.3
+pillow>=10.0
 scikit-image>=0.22
 pywavelets>=1.4
 tqdm>=4.66
-
-# Optional visualization utilities (used by Streamlit internally)
 matplotlib>=3.7
