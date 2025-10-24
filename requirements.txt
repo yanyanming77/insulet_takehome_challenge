@@ -61,7 +61,7 @@ narwhals==2.9.0
 nest-asyncio==1.6.0
 networkx==3.4.2
 numpy==1.26.4
-opencv-python==4.10.0.82
+opencv-python-headless==4.8.1.78
 opt_einsum==3.4.0
 optree==0.17.0
 optuna==4.5.0
